@@ -1,0 +1,103 @@
+/*------------------- Wraper -------------------*/
+.wrapper {
+    background: url('../images/bg_main.jpg')no-repeat #000;
+}
+.row_clear {
+    @extend %clearfix;
+}
+.container {
+    @extend %clearfix;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+}
+.page-main {
+    background: url('../images/bg_body.jpg')no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    padding: 75px 26px 0;
+    width: 1000px;
+    box-shadow: 0 0 100px #fff;
+    &:after {
+        content: "";
+        margin: 0 auto;
+        margin-left: -25px;
+        display: block;
+        background: url('../images/bg_body_bottom.jpg') no-repeat;
+        width: 999px;
+        height: 19px;
+    }
+}
+/*------------------- Component -------------------*/
+// /*------------------- Typography -------------------*/
+.title_h2 {
+    font-size: 24px;
+    color: $color-primary;
+    line-height: 1.8;
+    font-weight: bold;
+}
+.title_h3 {
+    // font-size: 24px;
+    // line-height: 1.8;
+    // color: $color-primary;
+    // font-weight: bold;
+}
+.title_A {
+    // font-size: 24px;
+    // color: $color-primary;
+    // line-height: 1.8;
+    // font-weight: bold;
+}
+.title_B {
+    // font-size: 24px;
+    // line-height: 1.8;
+    // color: $color-primary;
+    // font-weight: bold;
+}
+.text {
+    // padding:
+    // font-size: ;
+    // color:
+}
+// /*------------------- Form -------------------*/
+.year-select-btn {
+    text-align: center;
+    position: relative;
+}
+.num-select-wrap {
+    display: block;
+    margin-top: -62px;
+    margin-bottom: 20px;
+    padding: 2px;
+    // background: url('../images/btn_seclect.png') no-repeat center;
+    background: transparent;
+}
+.num-select {
+    -webkit-appearance: button;
+    margin: 0;
+    padding: 0 186px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    line-height: 68px;
+    background: url('../images/btn_seclect.png') no-repeat #60126b;
+    border: 0;
+    outline: none;
+}
+.btn {
+    // padding:
+    // border:
+    // background:
+    // font-size:
+    // color:
+}
+/*------------------- List -------------------*/
+.listItems {
+    @extend %clearfix;
+    // .items {
+    //     float: left;
+    // }
+}

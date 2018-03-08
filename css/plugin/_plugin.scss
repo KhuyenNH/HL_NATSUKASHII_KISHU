@@ -1,0 +1,34 @@
+// Ghi đè css ví dụ như custom slider...
+.owl-item {
+    text-align: center;
+}
+.owl-pagination {
+    display: none;
+}
+.owl-theme .owl-controls .owl-buttons div {
+    position: relative;
+    background: transparent;
+    opacity: 1;
+    padding: 0;
+    margin: 0;
+}
+.owl-prev {
+    left: -20px;
+}
+.owl-next {
+    right: -20px;
+}
+.owl-buttons {
+    position: absolute;
+    top: 30%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.owl-carousel.center .owl-wrapper {
+    width: inherit!important;
+    display: flex!important;
+    justify-content: center;
+}

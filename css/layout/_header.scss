@@ -1,0 +1,18 @@
+/*    header
+-------------------------------------*/
+.header {
+    position: relative;
+    padding-top: 8px;
+    height: 472px;
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.3);
+    .logo {
+        position: absolute;
+        top: 13px;
+        left: 68px;
+    }
+    .btn_top {
+        position: absolute;
+        bottom: 0px;
+        right: 110px;
+    }
+}
