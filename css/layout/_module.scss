@@ -1,6 +1,7 @@
 /*------------------- Wraper -------------------*/
 .wrapper {
-    background: url('../images/bg_main.jpg')no-repeat #000;
+    background: url('../images/bg_main.jpg') no-repeat top center #000;
+    min-width: 1000px;
 }
 .row_clear {
     @extend %clearfix;
@@ -74,16 +75,19 @@
     background: transparent;
 }
 .num-select {
-    -webkit-appearance: button;
+    appearance: none;
     margin: 0;
-    padding: 0 186px;
+    padding: 0 179px;
+    width: 562px;
+    height: 72px;
     color: #fff;
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
-    text-align: center;
+    text-align-last:center;
     line-height: 68px;
     background: url('../images/btn_seclect.png') no-repeat #60126b;
+    background-size: 100%;
     border: 0;
     outline: none;
 }
