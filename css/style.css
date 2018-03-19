@@ -188,6 +188,10 @@ button:focus, input:focus, a:focus {
   font-weight: bold;
 }
 
+select::-ms-expand {
+  display: none;
+}
+
 .year-select-btn {
   text-align: center;
   position: relative;
